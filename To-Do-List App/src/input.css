@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  ul li {
+    @apply list-none font-[17px] py-[12px] pr-[8px] pl-[50px] select-none cursor-pointer relative;
+  }
+
+  ul li::before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(../assets/images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+  }
+
+  ul li.check {
+    @apply text-[#555] line-through before:bg-[url(../assets/images/checked.png)];
+  }
+
+  ul li span {
+    @apply absolute right-0 top-[5px] w-10 h-10 text-[22px] text-[#555] leading-10 text-center rounded-[50%] duration-300 hover:bg-[#edeef0] hover:text-[#ff5945];
+  }
+}

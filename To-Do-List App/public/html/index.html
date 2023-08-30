@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../assets/images/checked.png " />
+    <link rel="stylesheet" href="../css/output.css" />
+    <link rel="stylesheet" href="../css/list-style.css" />
+    <title>To-Do List</title>
+  </head>
+
+  <body class="font-Montserrat">
+    <div
+      class="bg-gradient-to-tr from-[#ff5945] to-[#1D2671] w-[100%] min-h-[100vh] p-[10px]"
+    >
+      <div
+        class="w-[100%] max-w-[540px] bg-white mt-[100px] mx-auto mb-[20px] pt-10 px-[30px] pb-[70px] rounded-[10px]"
+      >
+        <h2
+          class="text-[#000] flex items-center gap-[10px] text-[24px] font-semibold mb-[20px]"
+        >
+          To-Do List
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/9741/9741134.png"
+            class="w-[30px]"
+          />
+        </h2>
+        <div
+          class="flex items-center justify-between bg-[#edeef0] rounded-[30px] pl-[20px] mb-[25px]"
+        >
+          <input
+            class="flex-1 p-0 bg-transparent border-none outline-none md:p-[10px]"
+            type="text"
+            id="input-box"
+            placeholder="Add your list"
+          />
+          <button
+            class="bg-[#ff5945] py-[16px] px-[25px] sm:px-[50px] rounded-[40px] text-[16px] text-white font-semibold hover:bg-[#a54556] duration-200"
+            id="add-button"
+          >
+            Add
+          </button>
+        </div>
+        <ul id="list-container">
+          <!-- Your list will be here -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
