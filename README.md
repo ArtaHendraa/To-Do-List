@@ -28,7 +28,9 @@ Tampilan yang Responsif: Antarmuka aplikasi dirancang responsif, sehingga penggu
 </li>
 
 </ul>
+
 ## Manfaat:
+
 <ul>
 <li>
 Memungkinkan pengguna untuk mengatur tugas sehari-hari mereka dengan lebih terstruktur dan efisien.
